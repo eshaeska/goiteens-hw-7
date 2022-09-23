@@ -1,0 +1,69 @@
+:root{
+    --accent-color:#2196F3;
+    --primary-text-color:#212121;
+    --thirdly-text-color:#FFFFFF;
+    --secondary-text-color:#757575;
+    --background-color:#2F303A ;
+}
+/* #212121 -primary-text-color
+#2196F3 -accent-color
+#FFFFFF -thirdly-text-color
+#757575 -secondary-text-color */
+/* основное */
+body{
+    font-family: "Roboto", sans-serif;
+    color: var(--primary-text-color)
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none ;
+}
+/* главная страница */
+.logo{
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+color:#212121;
+}
+.logo span{
+color:#2196F3;
+}
+.nav-link,
+.contact-link{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+    color: var(--primary-text-color);
+}
+.nav-link:hover,
+.nav-link:focus,
+.contact-link:hover,
+.contact-link:focus{
+    color: var(--accent-color);
+}
+.contact-link{
+    color: var(--secondary-text-color);
+}
+.section{
+    background-color:var(--background-color) ;
+}
+.hero-title{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    color: var(--thirdly-text-color);
+} 
+/* Портфолио */
