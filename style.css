@@ -106,9 +106,42 @@ padding-bottom: 200px;
     padding-top: 24px;
     padding-bottom: 25px;
 }
+.container.nav{
+    display: flex;
+    align-items: center;
+}    
+nav{
+    margin-left: 93px;
+}
+.nav-list{
+    display: flex;
+}
+.nav-item:not(:first-child){
+    margin-left: 54px;
+}
+.contacts-list{
+    display: flex;
+    margin-left: auto;
+}
+.contact-item:not(:first-child){
+    margin-left: 50px;
+}
 /* футер */
 .section.footer{
     padding-top: 60px;
     padding-bottom: 60px;
 }
 /* Портфолио */
+.hero-buttons{
+    display: flex;
+    align-items: center;
+    margin-top: 132px;
+}
+.button-list{
+    display: flex;
+    margin: auto;
+}
+.button-item{
+    display: flex;
+    margin-left: 55px;
+}
