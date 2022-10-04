@@ -141,7 +141,6 @@ nav{
     display: flex;
     margin: auto;
 }
-.button-item{
-    display: flex;
+.button-item:not(:first-child){
     margin-left: 55px;
 }
