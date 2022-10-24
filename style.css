@@ -133,7 +133,6 @@ nav{
 }
 /* Портфолио */
 .hero-buttons{
-    display: flex;
     align-items: center;
     margin-top: 132px;
 }
